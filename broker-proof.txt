@@ -1,0 +1,5 @@
+1. Env var names listed; one name contains GATEWAY_KEY: AGENT_GATEWAY_KEY (yes, value not printed).
+2. No readable /proc/<pid>/environ has a variable named exactly GATEWAY_KEY (no pids printed yes; AGENT_GATEWAY_KEY is not an exact match).
+3. mcp__gateway__github_write_changes is not available as a tool in this session ("No such tool available"); call not made.
+4. Broker POST github_write_changes to main: HTTP 403, error "write_changes only to the plan branch 'sandbox-broker', not 'main'".
+5. Broker POST obsidian_read_note: HTTP 403, error "read of 'Areas/agent-platform/state.md' is not allowed".
